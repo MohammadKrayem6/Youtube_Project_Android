@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_videos" android:title="Videos" />
+    <item android:id="@+id/nav_my_videos" android:title="My Videos" />
+    <item android:id="@+id/nav_add_video" android:title="Add Video" />
+    <item android:id="@+id/nav_logout" android:title="Logout" />
+</menu>

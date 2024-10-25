@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_register_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create your YouTube account"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:textColor="#FF0000" /> <!-- YouTube Red -->
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_below="@id/tv_register_title"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_below="@id/et_username"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_below="@id/et_password"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/et_display_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Display Name"
+            android:layout_below="@id/et_confirm_password"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/btn_choose_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Photo"
+            android:layout_below="@id/et_display_name"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_below="@id/btn_choose_photo"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:padding="12dp" />
+    </RelativeLayout>
+</ScrollView>
+
